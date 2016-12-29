@@ -4,6 +4,14 @@ Poly
 A simple ML dialect with definitions, let polymorphism and a fixpoint operator.
 Uses syntax directed HM type inference.
 
+Note
+====
+This is a modified version of Stephen Diehl's Poly.
+https://github.com/sdiehl/write-you-a-haskell/tree/master/chapter7/poly_constraints
+
+This version compiles expressions a finite, fixed set of combinators, and then run
+these combinators just as Haskell functions.
+
 To compile and run:
 
 ```shell
