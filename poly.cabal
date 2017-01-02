@@ -9,7 +9,7 @@ build-type:          Simple
 extra-source-files:  README.md
 cabal-version:       >=1.10
 
-executable lazyml
+executable poly
   build-depends:
       base          >=4.8    && <5
     , pretty        >= 1.1   && <1.2
